@@ -45,28 +45,28 @@ body{
 .text--big {
     @include text(18px);
     @media (max-width:768px){
-        @include titlle(15px);
+        @include title(15px);
     }
 }
 
 .text {
     @include text;
     @media (max-width:768px){
-        @include titlle(14px);
+        @include title(14px);
     }
 }
 
 .text--small {
     @include text(12);
     @media (max-width:768px){
-        @include titlle(15px);
+        @include title(15px);
     }
 }
 
 .title--big {
     @include title(44px);
     @media (max-width:768px){
-        @include titlle(26px);
+        @include title(26px);
     }
 }
 
@@ -74,14 +74,14 @@ body{
     @include title;
 
     @media (max-width:768px){
-        @include titlle(24px);
+        @include title(24px);
     }
 }
 
 .title--small {
     @include title(28px);
     @media (max-width:768px){
-        @include titlle(22px);
+        @include title(22px);
     }
 }
 
