@@ -7,11 +7,26 @@
     <link rel="stylesheet" href="./dist/css/main.css">
 </head>
 <body>
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="./dist/images/disneyplus.svg" alt="">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#" class="button button--secondary">Subscribe now</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#" class="button button--dark">Log in</a>
+                </li>
+            </ul>
+        </div>
+    </header>
     <section class="hero">
         <div class="hero__content">
-            <h1 class="hero__content__branding">
+            <div class="hero__content__branding">
                 <img src="./dist/images/disneyplus.svg" alt="Disney +">
-            </h1>
+            </div>
             <h3 class="title--small">
                 The best stories in one place.
             </h3>
@@ -25,13 +40,13 @@
             <ul class="hero__content__combos">
                 <li class="hero__content__combos__combo">
                     <img src="./dist/images/logos/disney_star_plus.png" alt="Disney+ Combos">
-                    <button>Subscribe now</button>
+                    <button class="button">Subscribe now</button>
                     <span class="text">16.90 EUR/month</span>
                 </li>
                 <li class="hero__content__combos__combo">
                     <img src="./dist/images/logos/disney_star_plus.png" alt="Disney+ Combos">
-                    <button>Subscribe now</button>
-                    <span class="text">16.90 EUR/month</span>
+                    <button class="button">Subscribe now</button>
+                    <span class="text">27.90 EUR/month</span>
                 </li>
             </ul>
             <p class="text--small">
@@ -144,6 +159,143 @@
             *The price may change in case you subscribe through other platforms.
         </p>    
     </section>
+    <section class="image-text-section">
+        <img src="./dist/images/tv_pc_tablet_celular.png" alt="">
+        <div class="image-text-section__text_container">
+            <h2 class="title">Watch it your own way</h2>
+            <p class="text--big">
+                Use the big screen on your TV, tablet, smartphone and other devices. Our selecion of products in 4K are increasing non stop. Also, luckily for everyone, you can use the account in up to 4 devices at the same time.
+            </p>
+        </div>
+    </section>
+    <section class="image-text-section image-text-section--image-full-width">
+        <picture>
+            <source media="(max-width: 768px)" srcset="./dist/images/fundo_rei_leao_celular.png"/>
+            <img src="./dist/images/fundo_rei_leao.png" alt="">
+        </picture>
+        <div class="image-text-section__text_container image-text-section--image-full-width__text_container">
+            <h2 class="title">Download movies and series</h2>
+            <p class="text--big">
+                Download and watch whenever and wherever. This way your favourites are always with you, even with no internet.
+            </p>
+        </div>
+    </section>
+    <section class="available-devices">
+        <h2 class="title">Available in your favourite devices</h2>
+        <ul class="available-devices__list">
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/computador.png" alt="">
+                <h4 class="title--small">Computer</h4>
+                <ul class="text">
+                    <li>Chrome OS</li>
+                    <li>MacOS</li>
+                    <li>PC Windows</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/computador.png" alt="">
+                <h4 class="title--small">Computer</h4>
+                <ul class="text">
+                    <li>Chrome OS</li>
+                    <li>MacOS</li>
+                    <li>PC Windows</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/computador.png" alt="">
+                <h4 class="title--small">Computer</h4>
+                <ul class="text">
+                    <li>Chrome OS</li>
+                    <li>MacOS</li>
+                    <li>PC Windows</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/computador.png" alt="">
+                <h4 class="title--small">Computer</h4>
+                <ul class="text">
+                    <li>Chrome OS</li>
+                    <li>MacOS</li>
+                    <li>PC Windows</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section class="faq">
+        <h2 class="title">Frequently asked questions</h2>
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Question?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Answer
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Question?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Answer
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Question?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Answer
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="./dist/images/disneyplus.svg" alt="">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="./dist/images/icones/globe.svg" alt="">
+                        <select>
+                            <option>English</option>
+                            <option selected>Portuguese</option>    
+                    </div>
+                    </select>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Terms and conditions</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Policies and privicy</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Data Protections</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Customized ads</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">
+                        Available devices
+                    </a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Help</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">About Disney</a>
+                </li>
+            </ul>
+            <p class="text--small">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus consequatur magnam nulla veniam quidem velit  porro consequatur ducimus, nemo 
+            </p>
+            <p class="text--small">
+                Lorem ipsum dolor sit amet consectetur adipisicing consequatur nulla veniam 
+            </p>
+        </div>
+    </footer>
     <script src="./src/main.js"></script>
 </body>
 </html>
